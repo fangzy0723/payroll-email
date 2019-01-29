@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" xmlns="https://www.w3.org/1999/xhtml"
+>
+<head>
+    <meta charset="utf-8"/>
+    <title>批量发送工资条</title>
+</head>
+<!-- BEGIN BODY -->
+<body class="childBody">
+<!-- BEGIN CONTAINER -->
+<p >
+<form id="file_form" action="uploadFile"
+      enctype="multipart/form-data" method="post">
+    <input type="file" name="file" id="file_input">
+    <input type="submit" value="导入数据" class="file">
+</form>
+</p>
+</body>
+<!-- END BODY -->
+</html>
